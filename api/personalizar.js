@@ -7,7 +7,7 @@ const openai = new OpenAI({
 const ALLOWED_ORIGINS = [
   "https://revenda.soprano.com.br",
   "https://www.revenda.soprano.com.br",
-  "https://stgsoprano.blob.core.windows.net/vtex/index.html"
+  "https://stgsoprano.blob.core.windows.net"
 ];
 
 function configurarCors(req, res) {
