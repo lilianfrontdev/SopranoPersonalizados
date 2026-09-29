@@ -7,13 +7,32 @@ const openai = new OpenAI({
 const ALLOWED_ORIGINS = [
   "https://revenda.soprano.com.br",
   "https://www.revenda.soprano.com.br",
-  "https://stgsoprano.blob.core.windows.net"
 ];
+
+function origemPermitida(req) {
+  const origin = req.headers.origin;
+
+  if (!origin) {
+    return false;
+  }
+
+  if (ALLOWED_ORIGINS.includes(origin)) {
+    return true;
+  }
+
+  const host = req.headers["x-forwarded-host"] ?? req.headers.host;
+
+  try {
+    return new URL(origin).host === host;
+  } catch {
+    return false;
+  }
+}
 
 function configurarCors(req, res) {
   const origin = req.headers.origin;
 
-  if (ALLOWED_ORIGINS.includes(origin)) {
+  if (origemPermitida(req)) {
     res.setHeader("Access-Control-Allow-Origin", origin);
   }
 
@@ -48,9 +67,7 @@ export default async function handler(req, res) {
     return res.status(204).end();
   }
 
-  const origin = req.headers.origin;
-
-  if (!ALLOWED_ORIGINS.includes(origin)) {
+  if (!origemPermitida(req)) {
     return res.status(403).json({
       error: "Origem não autorizada."
     });
