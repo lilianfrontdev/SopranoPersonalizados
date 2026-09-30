@@ -32,10 +32,11 @@ document.addEventListener("DOMContentLoaded", async () => {
   const fecharModal = document.querySelector("#modal-close");
   const loader = document.querySelector("#ai-loader");
   const simulador = document.querySelector("#simulador");
+  const previaVazia = document.querySelector("#preview-empty");
+  const rotuloCor = document.querySelector("#color-label");
 
-  const cardInicial = cards.find((c) => c.getAttribute("aria-pressed") === "true") ?? cards[0];
-  let familia = catalogo.find((f) => f.id === cardInicial.dataset.family);
-  let variante = familia.variantes[0];
+  let familia = null;
+  let variante = null;
   let geracaoAtual = 0;
 
   const textoProduto = () => `${familia.nome} · ${variante.nome}`;
@@ -43,16 +44,23 @@ document.addEventListener("DOMContentLoaded", async () => {
   function limparResultado(mensagem = "") {
     geracaoAtual++;
     restaurarBotaoGerar();
-    produto.src = variante.imagem;
-    produto.alt = textoProduto();
-    previaLogo.hidden = !inputLogo.files[0];
     botaoBaixar.hidden = true;
     status.textContent = mensagem;
+
+    if (!variante) return;
+
+    produto.src = variante.imagem;
+    produto.alt = textoProduto();
+    produto.hidden = false;
+    previaVazia.hidden = true;
+    previaLogo.hidden = !inputLogo.files[0];
+    areaPrevia.disabled = false;
+    botaoAmpliar.disabled = false;
   }
 
   function restaurarBotaoGerar() {
     loader.hidden = true;
-    botaoGerar.disabled = !inputLogo.files[0];
+    botaoGerar.disabled = !(inputLogo.files[0] && variante);
     botaoGerar.textContent = "Gerar prévia personalizada";
   }
 
@@ -83,13 +91,13 @@ document.addEventListener("DOMContentLoaded", async () => {
     familia = catalogo.find((f) => f.id === card.dataset.family);
     variante = familia.variantes[0];
     nomeProduto.textContent = textoProduto();
+    rotuloCor.hidden = false;
     renderizarCores();
-    limparResultado(inputLogo.files[0] ? "Produto atualizado. Clique em gerar prévia." : "");
+    limparResultado(inputLogo.files[0] ? "Produto selecionado. Clique em gerar prévia." : "");
     simulador.scrollIntoView({ behavior: "smooth", block: "center" });
   }
 
   cards.forEach((card) => card.addEventListener("click", () => selecionarProduto(card)));
-  renderizarCores();
 
   inputLogo.addEventListener("change", () => {
     const arquivo = inputLogo.files[0];
@@ -104,7 +112,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     const leitor = new FileReader();
     leitor.onload = (e) => {
       previaLogo.src = e.target.result;
-      limparResultado(`${arquivo.name} selecionado`);
+      limparResultado(
+        variante ? `${arquivo.name} selecionado` : `${arquivo.name} selecionado. Agora escolha um produto.`
+      );
     };
     leitor.readAsDataURL(arquivo);
   });
@@ -135,7 +145,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   botaoGerar.addEventListener("click", async () => {
     const arquivo = inputLogo.files[0];
-    if (!arquivo) return;
+    if (!arquivo || !variante) return;
 
     const geracao = ++geracaoAtual;
     const nomeGerado = `${familia.nome} ${variante.nome}`;
@@ -190,6 +200,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
 
   function abrirModal() {
+    if (!variante) return;
     imagemModal.src = produto.src;
     imagemModal.alt = produto.alt;
     modal.hidden = false;

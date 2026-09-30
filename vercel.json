@@ -7,14 +7,10 @@
     }
   },
   "redirects": [
-    { "source": "/", "destination": "/final-de-ano-2026", "permanent": false }
-  ],
-  "headers": [
     {
-      "source": "/assets/img/(.*)",
-      "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=86400, stale-while-revalidate=604800" }
-      ]
+      "source": "/",
+      "destination": "/final-de-ano-2026",
+      "permanent": false
     }
   ]
 }

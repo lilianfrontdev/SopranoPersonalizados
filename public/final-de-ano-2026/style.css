@@ -678,8 +678,28 @@ section {
   padding: 5px;
 }
 
-.preview-logo[hidden] {
+.preview-logo[hidden],
+.preview-produto[hidden],
+.preview-vazio[hidden],
+.color-label[hidden] {
   display: none;
+}
+
+.preview:disabled {
+  cursor: default;
+}
+
+.preview:disabled::after {
+  display: none;
+}
+
+.preview-vazio {
+  max-width: 240px;
+  padding: 0 20px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--cor-texto-suave);
 }
 
 .ai-loader {

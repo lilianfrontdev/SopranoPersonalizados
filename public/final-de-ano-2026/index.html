@@ -116,7 +116,7 @@
           </p>
         </div>
         <div class="product-grid">
-          <button class="product-card" type="button" data-family="atacama" aria-pressed="true"
+          <button class="product-card" type="button" data-family="atacama" aria-pressed="false"
             aria-controls="simulador">
             <img src="/assets/img/produtos/3355.webp" alt="" width="300" height="190" loading="lazy" />
             <span class="product-card-nome">Garrafa Atacama 2,5L</span>
@@ -259,9 +259,9 @@
             <i></i><i></i><i></i>
           </div>
           <div class="mockup-body">
-            <button class="preview" id="preview-area" type="button" aria-label="Ampliar imagem">
-              <img id="selected-product" class="preview-produto" src="/assets/img/produtos/3355.webp"
-                alt="Garrafa Atacama 2,5 L · Vermelho" />
+            <button class="preview" id="preview-area" type="button" aria-label="Ampliar imagem" disabled>
+              <span id="preview-empty" class="preview-vazio">Escolha um produto acima para começar.</span>
+              <img id="selected-product" class="preview-produto" alt="" hidden />
               <img id="logo-preview" class="preview-logo" alt="Prévia da logo" hidden />
               <span id="ai-loader" class="ai-loader" hidden>
                 <span class="loader-spinner" aria-hidden="true"></span>
@@ -272,8 +272,8 @@
 
             <div class="controls">
               <span class="kicker">Sua prévia</span>
-              <h3 id="product-name">Garrafa Atacama 2,5 L · Vermelho</h3>
-              <span class="color-label" id="color-label">Escolha a cor do produto</span>
+              <h3 id="product-name">Nenhum produto selecionado</h3>
+              <span class="color-label" id="color-label" hidden>Escolha a cor do produto</span>
               <div id="color-options" class="color-options" role="group" aria-labelledby="color-label"></div>
               <p class="tech-note">
                 <strong>Importante:</strong> a serigrafia desta prévia é
@@ -292,7 +292,7 @@
                 Gerar prévia personalizada
               </button>
               <div class="result-actions">
-                <button id="expand-btn" class="btn btn-secondary" type="button">
+                <button id="expand-btn" class="btn btn-secondary" type="button" disabled>
                   Ampliar imagem
                 </button>
                 <button id="download-btn" class="btn btn-secondary" type="button" hidden>
