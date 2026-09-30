@@ -8,37 +8,37 @@
         "nome": "Vermelho",
         "sku": 3355,
         "cor": "#c93436",
-        "imagem": "/assets/img/produtos/3355.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/3355.webp"
       },
       {
         "nome": "Fig Green",
         "sku": 3045,
         "cor": "#66775c",
-        "imagem": "/assets/img/produtos/3045.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/3045.webp"
       },
       {
         "nome": "Lavender",
         "sku": 3046,
         "cor": "#a89bbf",
-        "imagem": "/assets/img/produtos/3046.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/3046.webp"
       },
       {
         "nome": "Rosa Hollywood",
         "sku": 3047,
         "cor": "#93214e",
-        "imagem": "/assets/img/produtos/3047.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/3047.webp"
       },
       {
         "nome": "Amarelo",
         "sku": 3354,
         "cor": "#edbf28",
-        "imagem": "/assets/img/produtos/3354.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/3354.webp"
       },
       {
         "nome": "Laranja",
         "sku": 3356,
         "cor": "#e97727",
-        "imagem": "/assets/img/produtos/3356.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/3356.webp"
       }
     ]
   },
@@ -51,43 +51,43 @@
         "nome": "Inox",
         "sku": 4916,
         "cor": "#aeb5b9",
-        "imagem": "/assets/img/produtos/4916.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/4916.webp"
       },
       {
         "nome": "Branco",
         "sku": 3414,
         "cor": "#f6f6f2",
-        "imagem": "/assets/img/produtos/3414.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/3414.webp"
       },
       {
         "nome": "Preto",
         "sku": 3415,
         "cor": "#202326",
-        "imagem": "/assets/img/produtos/3415.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/3415.webp"
       },
       {
         "nome": "Fendi",
         "sku": 3416,
         "cor": "#b9aa94",
-        "imagem": "/assets/img/produtos/3416.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/3416.webp"
       },
       {
         "nome": "Vermelho",
         "sku": 3417,
         "cor": "#b8282d",
-        "imagem": "/assets/img/produtos/3417.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/3417.webp"
       },
       {
         "nome": "Mocca",
         "sku": 3418,
         "cor": "#786151",
-        "imagem": "/assets/img/produtos/3418.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/3418.webp"
       },
       {
         "nome": "Fig Green",
         "sku": 3419,
         "cor": "#66775c",
-        "imagem": "/assets/img/produtos/3419.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/3419.webp"
       }
     ]
   },
@@ -100,37 +100,37 @@
         "nome": "Azul",
         "sku": 3337,
         "cor": "#195d99",
-        "imagem": "/assets/img/produtos/3337.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/3337.webp"
       },
       {
         "nome": "Fendi",
         "sku": 3232,
         "cor": "#b9aa94",
-        "imagem": "/assets/img/produtos/3232.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/3232.webp"
       },
       {
         "nome": "Mocca",
         "sku": 3233,
         "cor": "#786151",
-        "imagem": "/assets/img/produtos/3233.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/3233.webp"
       },
       {
         "nome": "Fig Green",
         "sku": 3235,
         "cor": "#66775c",
-        "imagem": "/assets/img/produtos/3235.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/3235.webp"
       },
       {
         "nome": "Lavender",
         "sku": 3236,
         "cor": "#a89bbf",
-        "imagem": "/assets/img/produtos/3236.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/3236.webp"
       },
       {
         "nome": "Branco",
         "sku": 3334,
         "cor": "#f6f6f2",
-        "imagem": "/assets/img/produtos/3334.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/3334.webp"
       }
     ]
   },
@@ -143,31 +143,31 @@
         "nome": "Vermelho",
         "sku": 3033,
         "cor": "#c93436",
-        "imagem": "/assets/img/produtos/3033.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/3033.webp"
       },
       {
         "nome": "Azul",
         "sku": 3034,
         "cor": "#1764a4",
-        "imagem": "/assets/img/produtos/3034.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/3034.webp"
       },
       {
         "nome": "Preto",
         "sku": 3317,
         "cor": "#202326",
-        "imagem": "/assets/img/produtos/3317.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/3317.webp"
       },
       {
         "nome": "Fig Green",
         "sku": 3318,
         "cor": "#66775c",
-        "imagem": "/assets/img/produtos/3318.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/3318.webp"
       },
       {
         "nome": "Cinza",
         "sku": 3319,
         "cor": "#777d82",
-        "imagem": "/assets/img/produtos/3319.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/3319.webp"
       }
     ]
   },
@@ -180,37 +180,37 @@
         "nome": "Azul",
         "sku": 3032,
         "cor": "#1764a4",
-        "imagem": "/assets/img/produtos/3032.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/3032.webp"
       },
       {
         "nome": "Vermelho",
         "sku": 3031,
         "cor": "#c93436",
-        "imagem": "/assets/img/produtos/3031.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/3031.webp"
       },
       {
         "nome": "Preto",
         "sku": 3312,
         "cor": "#202326",
-        "imagem": "/assets/img/produtos/3312.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/3312.webp"
       },
       {
         "nome": "Fig Green",
         "sku": 3313,
         "cor": "#66775c",
-        "imagem": "/assets/img/produtos/3313.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/3313.webp"
       },
       {
         "nome": "Rosa Hollywood",
         "sku": 3314,
         "cor": "#93214e",
-        "imagem": "/assets/img/produtos/3314.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/3314.webp"
       },
       {
         "nome": "Cinza",
         "sku": 3315,
         "cor": "#777d82",
-        "imagem": "/assets/img/produtos/3315.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/3315.webp"
       }
     ]
   },
@@ -223,31 +223,31 @@
         "nome": "Azul",
         "sku": 3030,
         "cor": "#1764a4",
-        "imagem": "/assets/img/produtos/3030.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/3030.webp"
       },
       {
         "nome": "Vermelho",
         "sku": 3029,
         "cor": "#c93436",
-        "imagem": "/assets/img/produtos/3029.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/3029.webp"
       },
       {
         "nome": "Cinza",
         "sku": 3283,
         "cor": "#777d82",
-        "imagem": "/assets/img/produtos/3283.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/3283.webp"
       },
       {
         "nome": "Preto",
         "sku": 3310,
         "cor": "#202326",
-        "imagem": "/assets/img/produtos/3310.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/3310.webp"
       },
       {
         "nome": "Fig Green",
         "sku": 3311,
         "cor": "#66775c",
-        "imagem": "/assets/img/produtos/3311.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/3311.webp"
       }
     ]
   },
@@ -260,19 +260,19 @@
         "nome": "Cinza",
         "sku": 4568,
         "cor": "#777d82",
-        "imagem": "/assets/img/produtos/4568.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/4568.webp"
       },
       {
         "nome": "Lavender",
         "sku": 4566,
         "cor": "#a89bbf",
-        "imagem": "/assets/img/produtos/4566.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/4566.webp"
       },
       {
         "nome": "Rosa Hollywood",
         "sku": 4567,
         "cor": "#93214e",
-        "imagem": "/assets/img/produtos/4567.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/4567.webp"
       }
     ]
   },
@@ -285,25 +285,25 @@
         "nome": "Lavender",
         "sku": "copo310-lavender",
         "cor": "#a89bbf",
-        "imagem": "/assets/img/produtos/copo310-lavender.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/copo310-lavender.webp"
       },
       {
         "nome": "Fig Green",
         "sku": "copo310-fig-green",
         "cor": "#66775c",
-        "imagem": "/assets/img/produtos/copo310-fig-green.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/copo310-fig-green.webp"
       },
       {
         "nome": "Cinza",
         "sku": "copo310-cinza",
         "cor": "#666b70",
-        "imagem": "/assets/img/produtos/copo310-cinza.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/copo310-cinza.webp"
       },
       {
         "nome": "Branco",
         "sku": "copo310-branco",
         "cor": "#f5f5f2",
-        "imagem": "/assets/img/produtos/copo310-branco.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/copo310-branco.webp"
       }
     ]
   },
@@ -316,19 +316,19 @@
         "nome": "Preto",
         "sku": "shakeira600-preto",
         "cor": "#202326",
-        "imagem": "/assets/img/produtos/shakeira600-preto.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/shakeira600-preto.webp"
       },
       {
         "nome": "Off White",
         "sku": "shakeira600-fendi",
         "cor": "#d7d2c6",
-        "imagem": "/assets/img/produtos/shakeira600-fendi.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/shakeira600-fendi.webp"
       },
       {
         "nome": "Cinza",
         "sku": "shakeira600-cinza",
         "cor": "#92989d",
-        "imagem": "/assets/img/produtos/shakeira600-cinza.webp"
+        "imagem": "https://soprano-personalizados.vercel.app/assets/img/produtos/shakeira600-cinza.webp"
       }
     ]
   }
