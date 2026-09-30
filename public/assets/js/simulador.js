@@ -1,5 +1,5 @@
-const API_ENDPOINT = "/api/personalizar";
-const CATALOGO_URL = "/assets/data/catalogo.json";
+const API_ENDPOINT = "https://soprano-personalizados.vercel.app/api/personalizar";
+const CATALOGO_URL = "https://soprano-personalizados.vercel.app/assets/data/catalogo.json";
 const TAMANHO_MAXIMO_LOGO = 10 * 1024 * 1024;
 
 document.addEventListener("DOMContentLoaded", async () => {
