@@ -404,7 +404,7 @@ section {
   width: 100%;
   text-align: left;
   color: inherit;
-  background: var(--cor-card);
+  background: #fff;
   border: 2px solid transparent;
   border-radius: var(--raio-card);
   padding: 16px;

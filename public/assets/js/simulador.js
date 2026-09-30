@@ -1,6 +1,3 @@
-// Simulador compartilhado entre as páginas de campanha.
-// A página precisa ter os cards .product-card (data-family = id em catalogo.json)
-// e os elementos do #simulador com os ids usados abaixo.
 const API_ENDPOINT = "/api/personalizar";
 const CATALOGO_URL = "/assets/data/catalogo.json";
 const TAMANHO_MAXIMO_LOGO = 10 * 1024 * 1024;
@@ -44,7 +41,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   const textoProduto = () => `${familia.nome} · ${variante.nome}`;
 
   function limparResultado(mensagem = "") {
-    // Invalida qualquer geração em andamento para o produto anterior.
     geracaoAtual++;
     restaurarBotaoGerar();
     produto.src = variante.imagem;
@@ -113,8 +109,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     leitor.readAsDataURL(arquivo);
   });
 
-  // Redimensiona a imagem para no máximo `maximo` px e converte para WebP,
-  // mantendo o corpo da requisição abaixo do limite da Vercel (4,5 MB).
   function imagemOtimizada(origem, maximo = 1024, qualidade = 0.84) {
     return new Promise((resolve, reject) => {
       const img = new Image();
@@ -171,13 +165,13 @@ document.addEventListener("DOMContentLoaded", async () => {
       const dados = await resposta.json().catch(() => ({}));
 
       if (!resposta.ok) {
+        console.error("Resposta da API:", resposta.status, dados);
         throw new Error(dados.error || `Não foi possível gerar a prévia (erro ${resposta.status}).`);
       }
       if (!dados.image) {
         throw new Error("A API não retornou a imagem personalizada.");
       }
 
-      // O usuário trocou de produto, cor ou logo enquanto a prévia era gerada.
       if (geracao !== geracaoAtual) return;
 
       produto.src = dados.image;
@@ -225,7 +219,6 @@ document.addEventListener("DOMContentLoaded", async () => {
         .toLowerCase()
         .replace(/[^a-z0-9]+/g, "-") + ".png";
 
-    // A prévia já é um data URL, então o download é direto.
     const link = document.createElement("a");
     link.href = produto.src;
     link.download = nomeArquivo;

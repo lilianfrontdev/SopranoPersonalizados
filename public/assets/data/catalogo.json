@@ -1,7 +1,7 @@
 [
   {
     "id": "atacama",
-    "nome": "Garrafa Atacama 2,5 L",
+    "nome": "Garrafa Atacama 2,5L",
     "descricao": "Lazer, eventos e equipes",
     "variantes": [
       {
@@ -25,7 +25,7 @@
       {
         "nome": "Rosa Hollywood",
         "sku": 3047,
-        "cor": "#df7e9c",
+        "cor": "#93214e",
         "imagem": "/assets/img/produtos/3047.webp"
       },
       {
@@ -39,18 +39,12 @@
         "sku": 3356,
         "cor": "#e97727",
         "imagem": "/assets/img/produtos/3356.webp"
-      },
-      {
-        "nome": "Verde",
-        "sku": 3357,
-        "cor": "#607c55",
-        "imagem": "/assets/img/produtos/3357.webp"
       }
     ]
   },
   {
     "id": "rubi",
-    "nome": "Garrafa Rubi 1 L",
+    "nome": "Garrafa Rubi 1L",
     "descricao": "Presentes e rotina corporativa",
     "variantes": [
       {
@@ -99,7 +93,7 @@
   },
   {
     "id": "cristal",
-    "nome": "Garrafa Cristal 1 L",
+    "nome": "Garrafa Cristal 1L",
     "descricao": "Escritório e relacionamento",
     "variantes": [
       {
@@ -142,7 +136,7 @@
   },
   {
     "id": "tropical5",
-    "nome": "Caixa Tropical 5 L",
+    "nome": "Caixa Tropical 5L",
     "descricao": "Campanhas e experiências",
     "variantes": [
       {
@@ -179,7 +173,7 @@
   },
   {
     "id": "tropical12",
-    "nome": "Caixa Tropical 12 L",
+    "nome": "Caixa Tropical 12L",
     "descricao": "Eventos, lazer e kits corporativos",
     "variantes": [
       {
@@ -209,7 +203,7 @@
       {
         "nome": "Rosa Hollywood",
         "sku": 3314,
-        "cor": "#df7e9c",
+        "cor": "#93214e",
         "imagem": "/assets/img/produtos/3314.webp"
       },
       {
@@ -222,7 +216,7 @@
   },
   {
     "id": "tropical32",
-    "nome": "Caixa Tropical 32 L",
+    "nome": "Caixa Tropical 32L",
     "descricao": "Eventos e grandes ações",
     "variantes": [
       {
@@ -259,7 +253,7 @@
   },
   {
     "id": "everest",
-    "nome": "Copo Everest 1,2 L",
+    "nome": "Copo Everest 1,2L",
     "descricao": "Uso diário e eventos",
     "variantes": [
       {
@@ -277,14 +271,14 @@
       {
         "nome": "Rosa Hollywood",
         "sku": 4567,
-        "cor": "#df7e9c",
+        "cor": "#93214e",
         "imagem": "/assets/img/produtos/4567.webp"
       }
     ]
   },
   {
     "id": "copo310",
-    "nome": "Copo Térmico 310 ml",
+    "nome": "Copo Térmico 310ml",
     "descricao": "Escritório, eventos e presentes",
     "variantes": [
       {
@@ -315,7 +309,7 @@
   },
   {
     "id": "shakeira600",
-    "nome": "Shakeira 600 ml",
+    "nome": "Shakeira 600ml",
     "descricao": "Bem-estar, equipes e ações esportivas",
     "variantes": [
       {
@@ -325,7 +319,7 @@
         "imagem": "/assets/img/produtos/shakeira600-preto.webp"
       },
       {
-        "nome": "Fendi",
+        "nome": "Off White",
         "sku": "shakeira600-fendi",
         "cor": "#d7d2c6",
         "imagem": "/assets/img/produtos/shakeira600-fendi.webp"

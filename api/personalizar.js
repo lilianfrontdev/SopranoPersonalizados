@@ -180,6 +180,8 @@ Entregue somente a imagem final do produto personalizado.
 
     return res.status(500).json({
       error: "Não foi possível gerar a personalização.",
+      openaiStatus: error.status,
+      openaiCode: error.code ?? error.type,
       detail:
         process.env.NODE_ENV === "development"
           ? error.message
