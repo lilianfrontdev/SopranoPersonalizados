@@ -13,8 +13,7 @@
   <link rel="stylesheet" href="/final-de-ano-2026/style.css" />
   <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-2K1X7BKP4H"></script> <script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());   gtag('config', 'G-2K1X7BKP4H'); </script>
   <script src="/assets/js/simulador.js" defer></script>
-  <script>(function(){if(window.parent===window)return;var u=0;function e(){var b=document.body,h=document.documentElement;if(!b)return;var a=Math.ceil(Math.max(b.scrollHeight,b.offsetHeight,h.offsetHeight));if(a===u)return;u=a;window.parent.postMessage({type:'sp-altura',altura:a},'*');}function i(){e();if('ResizeObserver'in window)new ResizeObserver(e).observe(document.body);}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',i);else i();window.addEventListener('load',e);window.addEventListener('resize',e);})();</script>
-</head>
+<script>(function(){if(window.parent===window)return;var u=0;function e(f){var b=document.body,h=document.documentElement;if(!b)return;var a=Math.ceil(Math.max(b.scrollHeight,b.offsetHeight,h.offsetHeight));if(f!==true&&a===u)return;u=a;window.parent.postMessage({type:'sp-altura',altura:a},'*');}function i(){e();if('ResizeObserver'in window)new ResizeObserver(function(){e();}).observe(document.body);}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',i);else i();window.addEventListener('load',function(){e();});window.addEventListener('resize',function(){e();});window.addEventListener('message',function(m){if(m.data&&m.data.type==='sp-altura-pedir')e(true);});})();</script></head>
 
 <body>
   <nav class="nav" aria-label="Principal">
