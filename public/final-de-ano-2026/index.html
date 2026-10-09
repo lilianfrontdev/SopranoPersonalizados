@@ -13,8 +13,7 @@
   <link rel="stylesheet" href="/final-de-ano-2026/style.css" />
   <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-2K1X7BKP4H"></script> <script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());   gtag('config', 'G-2K1X7BKP4H'); </script>
   <script src="/assets/js/simulador.js" defer></script>
-<script>(function(){if(window.parent===window)return;var u=0;function e(f){var b=document.body,h=document.documentElement;if(!b)return;var a=Math.ceil(Math.max(b.scrollHeight,b.offsetHeight,h.offsetHeight));if(f!==true&&a===u)return;u=a;window.parent.postMessage({type:'sp-altura',altura:a},'*');}function i(){e();if('ResizeObserver'in window)new ResizeObserver(function(){e();}).observe(document.body);}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',i);else i();window.addEventListener('load',function(){e();});window.addEventListener('resize',function(){e();});window.addEventListener('message',function(m){if(m.data&&m.data.type==='sp-altura-pedir')e(true);});})();</script></head>
-
+  <script>(function(){if(window.parent===window)return;var u=0;function e(f){var b=document.body,h=document.documentElement;if(!b)return;var a=Math.ceil(Math.max(b.scrollHeight,b.offsetHeight,h.offsetHeight));if(f!==true&&a===u)return;u=a;window.parent.postMessage({type:'sp-altura',altura:a},'*');}function i(){e();if('ResizeObserver'in window)new ResizeObserver(function(){e();}).observe(document.body);}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',i);else i();window.addEventListener('load',function(){e();});window.addEventListener('resize',function(){e();});window.addEventListener('message',function(m){if(m.data&&m.data.type==='sp-altura-pedir')e(true);});document.addEventListener('click',function(ev){var a=ev.target;while(a&&a.nodeName!=='A')a=a.parentNode;if(!a)return;var h=a.getAttribute('href')||'';if(h.charAt(0)!=='#'||h.length<2)return;var t=document.getElementById(decodeURIComponent(h.slice(1)));if(!t)return;ev.preventDefault();try{t.scrollIntoView({behavior:'smooth',block:'start'});}catch(x){t.scrollIntoView(true);}});})();</script>
 <body>
   <nav class="nav" aria-label="Principal">
     <div class="wrap">
@@ -25,9 +24,7 @@
         <a href="#campanha">Campanha</a>
         <a href="#produtos">Escolha os produtos</a>
         <a href="#como-funciona">Simule a personalização</a>
-        <a
-          href="https://revenda.soprano.com.br/categoria/utilidades-e-termicos/personalizados?utm_source=page-personalizados">Todos
-          os produtos</a>
+        <a href="https://revenda.soprano.com.br/categoria/utilidades-e-termicos/personalizados?utm_source=page-personalizados" target="_blank">Todos os produtos</a>
       </div>
       <a class="btn btn-whatsapp" href="#contato">Atendimento</a>
     </div>
